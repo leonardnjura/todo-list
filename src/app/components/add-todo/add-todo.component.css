@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  padding: 13px;
+}
+
+.form input[type='text'] {
+  flex: 10;
+  /* padding: 23px; */
+  padding: 0px 13px;
+  border-radius: 13px 0px 0px 13px;
+  border: 1px solid #ccc;
+}
+
+.form input[type='submit'] {
+  flex: 2;
+  border-radius: 0px 13px 13px 0px;
+}
+
+.form input[type='submit']:hover {
+  background: #98CC4C;
+}
+
+
